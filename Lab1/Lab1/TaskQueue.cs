@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace Lab1
 {
-    class TaskQueue : IEnumerable, IDisposable
+    public class TaskQueue : IEnumerable, IDisposable
     {
         private Thread[] threadPool;
         private int ThreadsNum = 0;
@@ -39,7 +39,6 @@ namespace Lab1
             {
                 if (TaskDelegateQueue.Count > 0)
                 {
-                    //SpinWait!!
                     lock (TaskDelegateQueue)
                     {
                         if (TaskDelegateQueue.Count > 0)
@@ -49,6 +48,8 @@ namespace Lab1
                     task.Invoke();
                     Console.WriteLine("{0} complete task", Thread.CurrentThread.Name);
                 }
+                //Skip processor cycles until we have a task for it;
+                SpinWait.SpinUntil(() => TaskDelegateQueue.Count > 0); 
             }
         }
 
