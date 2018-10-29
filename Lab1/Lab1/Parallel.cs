@@ -10,7 +10,8 @@ namespace Lab1
     {
         public static void WaitAll(List<TaskQueue.taskDelegate> tasks)
         {
-            TaskQueue taskQueue = new TaskQueue(5);
+            TaskQueue taskQueue = new TaskQueue(5); //TODO - fix it
+
             bool isRunning = true;
 
             foreach (var del in tasks)
@@ -22,7 +23,7 @@ namespace Lab1
             {
                 if (taskQueue.AreTasksCompleted())
                 {
-                    Console.WriteLine("All tasks are completed\n\n");
+                    Console.WriteLine("All tasks are completed");
                     isRunning = false;
                 }
                 Thread.Sleep(300);
