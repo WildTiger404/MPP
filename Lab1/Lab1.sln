@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "Lab1\Lab1.csproj", "{74E75066-9159-44DC-89CF-2D626A846450}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCopier", "Lab1\FileCopier.csproj", "{74E75066-9159-44DC-89CF-2D626A846450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyInfo", "AssemblyInfo\AssemblyInfo.csproj", "{CF64C095-E903-43F6-96F4-38E3F5103A8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{74E75066-9159-44DC-89CF-2D626A846450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74E75066-9159-44DC-89CF-2D626A846450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74E75066-9159-44DC-89CF-2D626A846450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF64C095-E903-43F6-96F4-38E3F5103A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF64C095-E903-43F6-96F4-38E3F5103A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF64C095-E903-43F6-96F4-38E3F5103A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF64C095-E903-43F6-96F4-38E3F5103A8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
