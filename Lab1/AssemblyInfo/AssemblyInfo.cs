@@ -36,11 +36,9 @@ namespace AssemblyInfo
             int i = 0;
             foreach (var type in pubTypes)
             {
-                typesNames[i] = type.FullName;
-                i++;
+                typesNames[i++] = type.FullName;
             }
             return typesNames;
         }
     }
-}
 }
