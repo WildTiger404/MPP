@@ -11,7 +11,7 @@ namespace AssemblyInfo
     {
         static void Main(string[] args)
         {
-            string path = @"C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\ReachFramework.dll";
+            string path = @"E:\Projects\git\labs\dotnetlab-2018q3\multi-layer architecture\Task\MLA_task\packages\SimpleInjector.4.4.0\lib\net45\SimpleInjector.dll";
             /*try
             {
                 AssemblyInfo.CheckPathArg(args, out path);

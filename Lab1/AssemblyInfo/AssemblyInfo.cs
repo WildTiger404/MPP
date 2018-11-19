@@ -31,7 +31,10 @@ namespace AssemblyInfo
         public static string[] LoadandListPublicTypes(string assemblyPath)
         {
             Assembly assembly = Assembly.LoadFrom(assemblyPath);
-            var pubTypes = assembly.GetTypes().Where(type => type.IsPublic).OrderBy(type => type.Namespace + type.Name);
+            var pubTypes = assembly.GetTypes()
+                        .Where(type => type.IsPublic)
+                        .OrderBy(type => type.Namespace + type.Name);
+
             string[] typesNames = new string[pubTypes.Count()];
             int i = 0;
             foreach (var type in pubTypes)

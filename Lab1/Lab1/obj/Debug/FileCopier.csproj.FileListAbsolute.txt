@@ -1,0 +1,7 @@
+E:\Projects\git\labs\MPP\Lab1\Lab1\bin\Debug\Lab1.exe.config
+E:\Projects\git\labs\MPP\Lab1\Lab1\bin\Debug\Lab1.exe
+E:\Projects\git\labs\MPP\Lab1\Lab1\bin\Debug\Lab1.pdb
+E:\Projects\git\labs\MPP\Lab1\Lab1\obj\Debug\FileCopier.csprojAssemblyReference.cache
+E:\Projects\git\labs\MPP\Lab1\Lab1\obj\Debug\FileCopier.csproj.CoreCompileInputs.cache
+E:\Projects\git\labs\MPP\Lab1\Lab1\obj\Debug\Lab1.exe
+E:\Projects\git\labs\MPP\Lab1\Lab1\obj\Debug\Lab1.pdb

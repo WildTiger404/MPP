@@ -1,0 +1,10 @@
+E:\Projects\git\labs\MPP\Lab1\AssemblyInfo\bin\Debug\AssemblyInfo.exe.config
+E:\Projects\git\labs\MPP\Lab1\AssemblyInfo\bin\Debug\AssemblyInfo.exe
+E:\Projects\git\labs\MPP\Lab1\AssemblyInfo\bin\Debug\AssemblyInfo.pdb
+E:\Projects\git\labs\MPP\Lab1\AssemblyInfo\bin\Debug\SimpleInjector.dll
+E:\Projects\git\labs\MPP\Lab1\AssemblyInfo\bin\Debug\SimpleInjector.xml
+E:\Projects\git\labs\MPP\Lab1\AssemblyInfo\obj\Debug\AssemblyInfo.csprojAssemblyReference.cache
+E:\Projects\git\labs\MPP\Lab1\AssemblyInfo\obj\Debug\AssemblyInfo.csproj.CoreCompileInputs.cache
+E:\Projects\git\labs\MPP\Lab1\AssemblyInfo\obj\Debug\AssemblyInfo.csproj.CopyComplete
+E:\Projects\git\labs\MPP\Lab1\AssemblyInfo\obj\Debug\AssemblyInfo.exe
+E:\Projects\git\labs\MPP\Lab1\AssemblyInfo\obj\Debug\AssemblyInfo.pdb
