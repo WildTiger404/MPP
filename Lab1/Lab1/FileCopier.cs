@@ -58,8 +58,7 @@ namespace Lab1
             
             foreach (string dir in dirs_names)
             {
-                string newsource_dir = Path.Combine(source_dir, dir);
-                files_num += CopyFiles(newsource_dir, newsource_dir.Replace(source_dir, target_dir));
+                files_num += CopyFiles(dir, Path.Combine(target_dir, dir.Substring(dir.IndexOf('\\') + 1)));
             }
             Parallel.WaitAll(list);
             return files_num;
